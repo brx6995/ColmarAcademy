@@ -79,7 +79,11 @@ h4 {
 }
 
 .banner-text {
-	text-align: right;
+	vertical-align: baseline;
+  	text-align: left;
+	width: 600px;
+	padding: 200px 100px;
+	
 }
 
 .start-button {
@@ -88,4 +92,5 @@ h4 {
 	padding-top: 8px;
 	padding-bottom: 8px;
 	text-align: center;
+	width: 550px;
 }
