@@ -1,3 +1,54 @@
 @charset "UTF-8";
 /* CSS Document */
 
+html {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+
+/* Header Section */
+
+header {
+	/* position: fixed; */
+	z-index: 1;
+	height: 64px;
+	display: inline;
+	width: 100%;
+}
+
+header .content {
+	display: flex;
+  	align-items: center;
+}
+
+.ic-logo {
+	height: 32px;
+	padding-left: 24px;
+}
+
+h4 {
+	line-height: 32px;
+}
+
+.colmar {
+	color: #4B4646;
+}
+
+.academy {
+	flex: 1;
+	color: #656565;
+	font-weight: 400;
+}
+
+.nav-bar-mobile {
+	display: none;
+}
+
+.nav-bar-desktop {
+	padding-right: 24px;
+}
+
+.nav-bar-desktop a {
+	padding-left: 16px;
+}
