@@ -57,6 +57,18 @@ h4 {
 
 .banner {
 	background-color: rgba(216,216,216,1);
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	text-align: center;
+}
+
+.banner h2 {
+	font-size: 52px;
+}
+
+.banner h3 {
+	font-weight: 500;
 }
 
 .banner-img {
@@ -64,4 +76,16 @@ h4 {
 	height: auto;
 	padding: 32px 24px;
 	
+}
+
+.banner-text {
+	text-align: right;
+}
+
+.start-button {
+	background-color: #4B4646;
+	color: white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
 }
