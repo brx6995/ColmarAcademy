@@ -52,3 +52,16 @@ h4 {
 .nav-bar-desktop a {
 	padding-left: 16px;
 }
+
+/* Banner */
+
+.banner {
+	background-color: rgba(216,216,216,1);
+}
+
+.banner-img {
+	width: 60%;
+	height: auto;
+	padding: 32px 24px;
+	
+}
