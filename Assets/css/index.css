@@ -184,19 +184,19 @@ h4 {
 	padding-top: 32px;
 }
 
-.course-grid {
-	padding-bottom: 32px;
-	
-}
 
 #courses .flex-item {
 	background-color: white;
+}
+
+.two {
 	margin-left: 32px;
 }
 
-#courses img {
-	height: auto;
+.three {
+	margin-left: 32px;
 }
+
 
 .course-grid .row-one {
 	display: flex;
@@ -205,13 +205,13 @@ h4 {
 	padding-bottom: 32px;
 	padding-left: 72px;
 	padding-right: 72px;
-	
 }
 
 .course-grid .row-two {
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
+	padding-bottom: 32px;
 	padding-left: 72px;
 	padding-right: 72px;
 }
@@ -219,6 +219,7 @@ h4 {
 #courses .content {
 	padding-left: 16px;
 	padding-top: 16px;
+	padding-right: 16px;
 }
 
 .course-title {
@@ -228,8 +229,5 @@ h4 {
 .courses, .course-list {
 	font-weight: 400;
 	Font-size: 24px;
-}
-
-.course-list {
-	padding-right: 16px;
+	color: grey;
 }
