@@ -171,3 +171,65 @@ h4 {
 	display: inline-flex;
 	background-color: #D9D9D9;
 }
+
+/* Learning Courses */
+
+#courses {
+	background-color: #D9D9D9;
+} 
+
+.start-learning {
+	font-size: 46px;
+	text-align: center;
+	padding-top: 32px;
+}
+
+.course-grid {
+	padding-bottom: 32px;
+	
+}
+
+#courses .flex-item {
+	background-color: white;
+	margin-left: 32px;
+}
+
+#courses img {
+	height: auto;
+}
+
+.course-grid .row-one {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	padding-bottom: 32px;
+	padding-left: 72px;
+	padding-right: 72px;
+	
+}
+
+.course-grid .row-two {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	padding-left: 72px;
+	padding-right: 72px;
+}
+
+#courses .content {
+	padding-left: 16px;
+	padding-top: 16px;
+}
+
+.course-title {
+	font-size: 28px;
+}
+
+.courses, .course-list {
+	font-weight: 400;
+	Font-size: 24px;
+}
+
+.course-list {
+	padding-right: 16px;
+}
