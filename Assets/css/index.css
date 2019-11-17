@@ -53,12 +53,17 @@ h4 {
 	padding-left: 16px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
 	.nav-bar-desktop {
 		display: none;
 	}
 	.nav-bar-mobile {
 		display: block;
+	}
+	
+	.content {
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 	.colmar {
 		display: none;
@@ -147,7 +152,6 @@ h4 {
 		text-align: center;
 	}
 }
-
 @media only screen and (max-width: 1050px) {
 	.banner-text {
     	width: 80%;
@@ -157,7 +161,7 @@ h4 {
 		padding-left: 10%;
 }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
 	.banner-img {
 		padding: 0;
 		width: 100%;
@@ -240,19 +244,20 @@ h4 {
 	background-color: #D9D9D9;
 }
 
+.in-mobile {
+	display: none;
+}
+
 @media only screen and (max-width: 1250px){
 	.main {
 		width: 40%;
 	}
-	
 	.main h2 {
 		font-size: 30px;
 	}
-
 	.main p {
 		font-size: 20px;
 	}
-
 	.main h6 {
 		font-size: 18px;
 	}
@@ -277,6 +282,18 @@ h4 {
 	.guest-lecture img {
 		width: 30%;
 	}
+}
+@media only screen and (max-width: 650px) {
+	.in-mobile {
+		display: block;
+	}
+	.in-desktop {
+		display: none;
+	}
+	.main {
+		display: none;
+	}
+	
 }
 /* Learning Courses */
 
@@ -338,6 +355,10 @@ h4 {
 }
 
 .tablet-course-grid {
+	display: none;
+}
+
+.courses-mobile {
 	display: none;
 }
 
